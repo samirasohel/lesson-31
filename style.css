@@ -16,10 +16,35 @@ body{
     border-bottom: 3px solid yellowgreen;
     transition: 0.5s ease;
 }
-
+.main-container{
+   height: 100vh; 
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-image: url(1.png);
+   background-attachment:fixed ;
+   background-size: cover;
+}
+.main-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
 .about{
     background-color: rgb(80, 80, 185);
+}
+#social-media{
+    background-color:rgb(80, 80, 185) ;
+}
+/* add color in social-media */
+.media-link{
+    padding: 1rem;
+    max-width: 15rem;
+    margin-left:1rem ;
+    border:2px solid yellow ;
+    border-radius:0.5rem ;
 }
